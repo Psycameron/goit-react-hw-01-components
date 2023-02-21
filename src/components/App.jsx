@@ -1,4 +1,5 @@
-import Profile from "./Profile/index";
+import React from 'react';
+import { Profile } from './Profile/index';
 
 export const App = () => {
   return (
@@ -9,7 +10,7 @@ export const App = () => {
         justifyContent: 'center',
         alignItems: 'center',
         fontSize: 40,
-        color: '#010101'
+        color: '#010101',
       }}
     >
       <Profile />
