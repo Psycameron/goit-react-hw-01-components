@@ -3,6 +3,7 @@ import { Profile } from './Profile/index';
 import { Statistics } from './Statistics';
 
 import user from './mocks/user.json';
+import stats from './mocks/data.json';
 
 export const App = () => {
   return (
@@ -23,7 +24,7 @@ export const App = () => {
         avatar={user.avatar}
         stats={user.stats}
       />
-      <Statistics />
+      <Statistics title="Upload stats" stats={stats} />
     </div>
   );
 };
