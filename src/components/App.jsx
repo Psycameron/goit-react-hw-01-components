@@ -1,5 +1,6 @@
 import React from 'react';
 import { Profile } from './Profile/index';
+import { Statistics } from './Statistics';
 
 import user from './mocks/user.json';
 
@@ -22,6 +23,7 @@ export const App = () => {
         avatar={user.avatar}
         stats={user.stats}
       />
+      <Statistics />
     </div>
   );
 };
