@@ -5,7 +5,7 @@ import { getRandomHexColor } from 'components/constants/randomColor';
 export function Statistics({ title, stats }) {
   return (
     <section className={style.section}>
-      {title && <h2 className={style.title}>{title}</h2>}
+      {title && <h2 className={style.title}>{title.toUpperCase()}</h2>}
       <ul className={style.list}>
         {stats.map(stat => (
           <li
