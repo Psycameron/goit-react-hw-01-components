@@ -1,6 +1,8 @@
 import PropTypes from 'prop-types';
-import style from './Statistics.module.css';
+
 import { getRandomHexColor } from 'constants/randomColor';
+
+import style from './Statistics.module.css';
 
 export function Statistics({ title, stats }) {
   return (
