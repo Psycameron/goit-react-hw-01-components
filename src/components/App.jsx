@@ -2,8 +2,8 @@ import React from 'react';
 import { Profile } from './Profile/index';
 import { Statistics } from './Statistics';
 
-import user from './mocks/user.json';
-import stats from './mocks/data.json';
+import user from '../mocks/user.json';
+import stats from '../mocks/data.json';
 
 export const App = () => {
   return (
