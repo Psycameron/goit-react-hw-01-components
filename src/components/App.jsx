@@ -1,9 +1,11 @@
 import React from 'react';
 import { Profile } from './Profile/index';
 import { Statistics } from './Statistics';
+import { FriendList } from './FriendList';
 
 import user from '../mocks/user.json';
 import stats from '../mocks/data.json';
+import friends from '../mocks/friends.json';
 
 export const App = () => {
   return (
@@ -25,6 +27,7 @@ export const App = () => {
         stats={user.stats}
       />
       <Statistics title="Upload stats" stats={stats} />
+      <FriendList friends={friends} />
     </div>
   );
 };
